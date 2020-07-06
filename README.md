@@ -27,25 +27,48 @@ lua base.lua 5aaC5p6c5L2g5ZKM5oiR5Lus5LiA5qC354Ot54ix57yW56CB77yM55e06L+35LqO5be
 python base.py 5aaC5p6c5L2g5ZKM5oiR5Lus5LiA5qC354Ot54ix57yW56CB77yM55e06L+35LqO5bel56iL5oqA5pyv77yM6K+35YaZ5LiA5bCB6YKu5Lu277yM566A5Y2V5LuL57uN5L2g6leq5bex5bm26ZmE5LiK5L2g55qE566A5Y6G77yM6Z2e5bi45pyf5b6F5pS25Yiw5L2g55qE5p2l5L+hOiBmcmFua0B5aXpob3VjcC5jbgplYXBweSBjb2Rpbmch
 ```
 
-
+![python res](./images/lua.png)
 
 ## Objective-C
 
-- [OC](./base.mm)
+- [OC](./main.m)
+
+```
+$ clang -fobjc-arc -framework Foundation main.m -o ocmain
+$ ./ocmain
+```
+
 
 ## C/C++
 
-- [CPP](./base.cpp)
+- [CPP](./main.cpp)
+
+```
+$ g++ main.cpp -o cppmain
+$ ./cppmain
+```
+
 
 ## Swift
 
 - [Swift](./base.swift)
 
+```
+$ xcrun swiftc -v -o swiftmain base.swift
+$ ./swiftmain
+```
+
 ## JAVA
 
 - [Java](./base.java)
 
+```
+$ javac base.java
+$ java base.java
+```
+
 ## JS
 
 - [JS](./base.js)
+
 
